@@ -52,4 +52,8 @@ df_raw <- df_raw %>%
     "1-5", "6-25", "26-100", "100-500", "500-1000", "More than 1000"
   ))
 
+write.csv(df_raw, file = 'clean_data/clean_data.csv', row.names = FALSE)
+
+
+
            
